@@ -11,5 +11,6 @@ class InitialBinding extends Bindings {
     Get.lazyPut(() => SearchShortsController());
     Get.lazyPut(() => ShortVideoController());
     Get.lazyPut(() => ProfileController());
+
   }
 }
